@@ -16,7 +16,7 @@ const app = () => {
           <Link to="/Location"><LocationButton /></Link>
           <Link to="/Fees"><FeesButton /></Link>
           <Link to="/Booking"><BookingButton /></Link>
-          <button className="buttonPhone">07960 482 002</button>
+          <button className="buttonPhone">07825 987 275</button>
         </div>
       </nav>
       <Outlet />

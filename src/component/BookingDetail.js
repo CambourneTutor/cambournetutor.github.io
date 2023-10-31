@@ -15,7 +15,7 @@ const booking = () => {
                 </div>
                 <div className='contactPhone'>
                     <BsTelephoneFill />
-                    <h4>07960 482 002</h4>
+                    <h4>07825 987 275</h4>
                 </div>
                 <div className='contactEmail'>
                     <MdOutlineEmail />

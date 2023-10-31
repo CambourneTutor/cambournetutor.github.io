@@ -6,7 +6,7 @@ const about = () => {
         <div className='about'>
             <h1>Welcome to Cambourne piano tutor &nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:cambournepianotutor@gmail.com?subject=Booking Enquiry">Book Now</a></h1>
             <h2 >
-               Are you or your child eager to embark on a musical journey? Look no further! We are thrilled to introduce a unique and tailored piano tutoring service, designed especially for aspiring young musicians. Led by a passionate 16-year-old student, with a remarkable Grade 7 proficiency in piano, this service offers a personalized learning experience for children aiming to excel from beginner to Grade 4 levels.  
+               Are you or your child eager to embark on a musical journey? Look no further! We are thrilled to introduce a unique and tailored piano tutoring service, designed especially for aspiring young musicians. Led by our young music tutor, with a remarkable Grade 7 proficiency in piano, this service offers a personalized learning experience for children aiming to excel from beginner to Grade 4 levels.  
             </h2>
             <h2>
                Our young tutor, not only brimming with enthusiasm but also equipped with an upright piano in the comfort of their home, is ready to nurture the budding talents of your child. Learning from the comfort of a home environment ensures a relaxed and focused atmosphere, making it easier for students to immerse themselves in the world of music.
