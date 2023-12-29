@@ -20,7 +20,7 @@
 }
 
 .locationDetail h2 a:hover {
-    font-weight: bold;
+    color: red;
 }
 
 .locationDetail table {
@@ -36,6 +36,15 @@
     font-size: 16px;
 }
 
+.locationimagetext{
+    color: white;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    top: 20%;
+    font-size: 80px;
+    text-shadow: black 5px 5px 5px;
+}
 /* desktop screen */
 @media only screen and (min-width: 800px) {
     .locationDetail tbody td {
@@ -49,5 +58,16 @@
     .locationDetail h2 {
         text-align: center;
         font-size: 1.5em;
+    }
+    .locationimagetext{
+        color: white;
+        position: absolute;
+        font-family: 'Archivo Black', sans-serif;
+        text-align: center;
+        bottom: 60%;
+        top: 0%;
+        font-size: 250px;
+        text-shadow: black 5px 5px 5px;
+
     }
 }

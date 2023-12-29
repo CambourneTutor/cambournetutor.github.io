@@ -1,3 +1,4 @@
+/* mobile screen */
 .about {
     width: 100%;
     padding-left: 5%;
@@ -16,22 +17,34 @@
 }
 
 .about h2 {
+    width: 80%;
     color: #555;
-    margin: 2% auto;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .about h1 a {
     padding-top: 20px;
-    color: #e79216;
-    font-weight:400;
+    color: orange;
+    font-weight: 400;
 }
 
 .about h1 a:hover{
     padding-top: 20px;
-    font-weight: bold;
+    color: red;
 }
+.aboutimagetext{
+    color: white;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    top: 15%;
+    font-size: 80px;
+    text-shadow: black 5px 5px 5px;
+
+}
+
 
 /* desktop screen */
 @media only screen and (min-width: 800px) {
@@ -42,6 +55,7 @@
         color: #555;
         z-index: 0;
         font-size: 30px;
+        
     }
 
     .about h2 {
@@ -49,5 +63,18 @@
         color: #555;
         margin: 2% auto;
         font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    .aboutimagetext{
+        color: white;
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        bottom: 60%;
+        top: 0%;
+        font-size: 250px;
+        text-shadow: black 5px 5px 5px;
+
     }
 }

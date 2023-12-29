@@ -8,9 +8,12 @@ export default class About extends React.Component {
   render() {
     return (
       <div className='container'>
-        <Body show='About' bgImg={aboutImg} />
+        
+        <Body show='About' bgImg={aboutImg} classType="aboutimagetext" titleText="ABOUT"/>
         <Footer />
+        
       </div>
+      
     )
   }
 }

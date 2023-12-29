@@ -1,3 +1,4 @@
+/* effects everything in intro page */
 .intro {
     text-align: left;
     background-color: #e79216;
@@ -5,15 +6,19 @@
     padding-top: 10px;
     padding-left: 3%;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: black 2px 2px 5px;
 }
 
+/* mobile paragraphing */
 .intro p {
     margin-top: 50px;
-    text-align: right;
+    text-align: left;
     padding: 5px;
-    color: #e79216;
+    color: white;
     font-size: 18px;
     font-weight: 400;
+    text-shadow: black 2px 2px 5px;
 }
 
 .intro p a {
@@ -30,7 +35,16 @@
      font-size: 30px;
      font-weight: bold;
      padding-bottom: 40px;
+
  }
+ .intro p a:hover {
+    text-align: right;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 40px;
+
+}
 
 /* desktop screen */
 @media only screen and (min-width: 800px) {
