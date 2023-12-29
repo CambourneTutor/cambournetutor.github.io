@@ -77,6 +77,15 @@ a:active {
     color: #2d2928;
 }
 
+.feesimagetext {
+    color: white;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    top: 20%;
+    font-size: 80px;
+    text-shadow: black 5px 5px 5px;
+}
 /* desktop screen */
 @media only screen and (min-width: 800px) {
     .priceDetail {
@@ -91,6 +100,17 @@ a:active {
         padding: 5px;
         margin: auto;
         border: none;
+    }
+    .feesimagetext {
+        color: white;
+        position: absolute;
+        font-family: 'Archivo Black', sans-serif;
+        text-align: center;
+        bottom: 60%;
+        top: 0%;
+        font-size:250px;
+        text-shadow: black 5px 5px 5px;
+
     }
 
         

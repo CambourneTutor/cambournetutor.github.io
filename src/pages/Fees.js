@@ -6,7 +6,7 @@ import Footer from '../component/Footer'
 const Fee = () => {
   return (
      <div className='container'>
-      <Body show='Fees' bgImg={fee} />
+      <Body show='Fees' bgImg={fee} titleText="FEES" classType="feesimagetext"/>
       <Footer />
     </div>
   )

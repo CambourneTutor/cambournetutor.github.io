@@ -9,7 +9,7 @@ const Home = () => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
-      }}>    
+      }}>   
       <div className='intro'>
         <h1>Cambourne Piano Tutor</h1>    
         <p> &#10003; Personalized lessons from a Grade 7 pianist</p>
