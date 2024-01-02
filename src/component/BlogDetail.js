@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/BlogDetail.css';
 
-const BlogDetails = () => {
+const BlogDetail = () => {
     return (
         <div className='blog'>
             <h1>blog &nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:cambournepianotutor@gmail.com?subject=Booking Enquiry">Book Now</a></h1>
@@ -12,4 +12,4 @@ const BlogDetails = () => {
 
     )
 }
-export default BlogDetails;
+export default BlogDetail;
