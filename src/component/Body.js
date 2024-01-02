@@ -15,7 +15,7 @@ const mainBody = ({ show, bgImg, classType, titleText}) => {
           </div>
           
         </div> 
-                  <div><Detail show={show} /></div>
+        <div><Detail show={show} /></div>
     </>
   )
 }
