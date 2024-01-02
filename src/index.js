@@ -12,6 +12,7 @@ import About from './pages/About';
 import Location from './pages/Location';
 import Fees from './pages/Fees';
 import Booking from './pages/Booking';
+import Blog from './pages/Blog';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
           <Route path="Location" element={<Location />} onEnter={() => window.location.reload()} />
           <Route path="Fees" element={<Fees />} onEnter={() => window.location.reload()} />
           <Route path="Booking" element={<Booking />} onEnter={() => window.location.reload()} />
+          <Route path="Blog" element={<Blog />} onEnter={() => window.location.reload()} />
           <Route path="/*" element={<App /> } onEnter={() => window.location.reload()} />
         </Route>
     </Routes>
