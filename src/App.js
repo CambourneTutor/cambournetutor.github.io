@@ -6,6 +6,7 @@ import AboutButton from "./component/AboutButton";
 import LocationButton from "./component/LocationButton";
 import FeesButton from "./component/FeesButton";
 import BookingButton from "./component/BookingButton";
+import BlogButton from "./component/BlogButton";
 
 const app = () => {
   return (
@@ -16,6 +17,7 @@ const app = () => {
           <Link to="/Location"><LocationButton /></Link>
           <Link to="/Fees"><FeesButton /></Link>
           <Link to="/Booking"><BookingButton /></Link>
+          <Link to="/Blog"><BlogButton /></Link>
           <button className="buttonPhone"><a href="tel:07960 482002">07960 482002</a></button>
         </div>
       </nav>
