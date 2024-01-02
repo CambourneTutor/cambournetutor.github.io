@@ -3,7 +3,7 @@ import main from '../img/main.jpg'
 
 const Home = () => {
   return (
-    <div class='bodyContainer'>
+    <div className='bodyContainer'>
       <div className="bgImg" style={{
         backgroundImage: `url(${main})`,
         backgroundPosition: 'center',

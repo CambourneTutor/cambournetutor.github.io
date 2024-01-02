@@ -4,8 +4,7 @@ import aboutImg from '../img/about.jpg'
 import Body from '../component/Body'
 import Footer from '../component/Footer'
 
-export default class About extends React.Component {
-  render() {
+const About = () => {
     return (
       <div className='container'>
         
@@ -15,5 +14,6 @@ export default class About extends React.Component {
       </div>
       
     )
-  }
 }
+
+export default About;
