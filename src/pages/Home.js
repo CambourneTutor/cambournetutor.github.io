@@ -12,12 +12,15 @@ const Home = () => {
       }}>   
       <div className='intro'>
         <h1>Cambourne Piano Tutor</h1>    
-        <p> &#10003; Personalized lessons from a Grade 7 pianist</p>
-        <p> &#10003; Learning in a comfortable home environment with an modern upright piano</p>
-        <p> &#10003; Affordable pricing for accessible music education</p>
-        <p> &#10003; Patient and tailored instruction to nurture young talents</p>
-        <p> &#10003; Inspiring, educational, and convenient music lessons at home</p>
+        <p> &#10003; Get personalized lessons from a <b>qualified Grade 8 pianist</b></p>
+        <p> &#10003; Learning in a comfortable home environment with an <b>modern upright piano</b></p>
+        <p> &#10003; <b>Affordable pricing</b> for accessible music education</p>
+        <p> &#10003; Suitable for <b>all ages and ability</b> </p>
+        <p> &#10003; Local piano tutor based in <b>Cambourne, Cambridge</b></p>
         <p><a href="mailto:cambournepianotutor@gmail.com?subject=Booking Enquiry">Book Now</a></p> 
+        <br></br>
+        <i> Find an experienced and qualified piano tutor near me in Cambourne, Cambridge. Suitable for all ages to start learning! Lessons from £10 per session.</i>
+        
       </div>
      </div>
     </div>

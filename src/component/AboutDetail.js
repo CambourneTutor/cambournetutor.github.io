@@ -20,6 +20,7 @@ const about = () => {
             <h2>
                Enrolling in our piano tutoring service promises to be an inspiring and educational experience, setting the stage for your child's musical accomplishments. We are confident that our young and dedicated tutor will provide a nurturing and constructive environment for learning, where the joy of music will flourish. Get ready to unlock the potential of your child's musical talents with us!   
             </h2>
+            
         </div>
 
     )
