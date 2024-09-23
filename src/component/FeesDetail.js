@@ -14,9 +14,9 @@ const FeeDetails =() => {
                     <tr><th>Type</th><th>Duration</th><th>Price</th><th>Action</th></tr>
                 </thead>
                 <tbody>
-                    <tr><td>Beginner</td><td>30 mins</td><td>£12.50</td><td><button><a href={email}>Book</a></button></td></tr>
-                    <tr><td>Grade 1-4</td><td>30 mins</td><td>£15</td><td><button><a href={email}>Book</a></button></td></tr>
-                    <tr><td>Grade 1-4</td><td>60 mins</td><td>£30</td><td><button><a href={email}>Book</a></button></td></tr>
+                    <tr><td>Beginner</td><td>30 mins</td><td>£15</td><td><button><a href={email}>Book</a></button></td></tr>
+                    <tr><td>Grade 1-4</td><td>30 mins</td><td>£17.5</td><td><button><a href={email}>Book</a></button></td></tr>
+                    <tr><td>Grade 1-4</td><td>60 mins</td><td>£35</td><td><button><a href={email}>Book</a></button></td></tr>
 
 
                 </tbody>
